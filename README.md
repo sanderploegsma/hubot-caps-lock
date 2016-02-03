@@ -26,3 +26,6 @@ Then add **hubot-caps-lock** to your `external-scripts.json`:
 user1>> OMG SHUT UP!
 hubot>> http://i1.kym-cdn.com/photos/images/original/000/046/772/vPRwonnXjiogzxwlFXZJqZivo1_500_2.jpg
 ```
+
+## License
+This software is licenced under the MIT license. For more information, see [here](LICENSE)
