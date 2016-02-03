@@ -13,5 +13,5 @@
 images = require('./images.json')
 
 module.exports = (robot) ->
-  robot.hear /^(?=(?:[A-Z]{3,}))(?:[^a-z]*)$/, (msg) ->
+  robot.hear /^(?:[^a-z]*[A-Z]{3,}[^a-z]*)$/, (msg) ->
     msg.send msg.random images

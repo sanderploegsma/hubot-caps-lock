@@ -20,6 +20,8 @@ describe 'caps-lock', ->
     beforeEach ->
       room.user.say 'Alice', 'HELLO WORLD?!'
       room.user.say 'Bob', 'WHO IS THERE?'
+      room.user.say 'Alice', 'I AM IRON MAN!'
+      room.user.say 'Bob', 'R U KIDDING ME!'
 
     it 'should reply with an image', ->
       expect(responses).to.contain(msg[1]) for msg in room.messages when msg[1] is 'hubot'
@@ -28,6 +30,8 @@ describe 'caps-lock', ->
     beforeEach ->
       room.user.say 'Alice', 'Hello World!'
       room.user.say 'Bob', 'You shall not pass!'
+      room.user.say 'Alice', 'I love toast... :)'
+      room.user.say 'Bob', 'Has anyone seen MISSION IMPOSSIBLE?'
 
     it 'should do nothing', ->
-      expect(room.messages.length).to.equal(2)
+      expect(room.messages.length).to.equal(4)
