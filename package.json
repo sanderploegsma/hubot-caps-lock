@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "author": "Sander Ploegsma <sanderploegsma@gmail.com>",
   "license": "MIT",
-  "keywords": "hubut, caps, lock, caps lock, hubot-caps-lock",
+  "keywords": "hubut, caps, lock, caps lock, hubot-caps-lock, script, hubot-script, hubot-scripts",
   "repository": {
     "type": "git",
     "url": "git://github.com/sanderploegsma/hubot-caps-lock.git"
